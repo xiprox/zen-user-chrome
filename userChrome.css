@@ -1,0 +1,16 @@
+/* Get rid of the bookmark button/icon in the toolbar. */
+.urlbar-page-action {
+  display: none;
+}
+
+/* Make the split tab outline thicker. */
+#tabbrowser-tabpanels[zen-split-view="true"] .browserSidebarContainer.deck-selected {
+  outline-width: 2px !important;
+}
+
+/* Limit the width of the url bar as it can be too wide. */
+#urlbar-container {
+  max-width: 1024px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
